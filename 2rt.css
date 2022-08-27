@@ -13,12 +13,14 @@ html{
 .Hero{
     /* background: linear-gradient(rgba(45, 25, 7, 0.7), rgba(45, 25, 7, 0.7)), url('Group\ 378.svg'); */
     height: 100%;
-    background-color: rgba(13, 6, 0, 1);
+    background-color: #FFF4EA;
     background-image: url('IMG/Group\ 371.svg');
     width: 100%;
     background-position: top right;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #f5f5f5;
+    color: #131415;
+    overflow: hidden;
 }
 .container{
     width: 90%;
@@ -48,6 +50,7 @@ nav {
     gap: 20px;
     text-decoration: none;
     list-style: none;
+    color: #131415;
 }
 .nav-item{
     text-decoration: none;
@@ -56,6 +59,10 @@ font-size: 20px;
 line-height: 39px;
 font-family: Silkscreen;
 }
+a{
+    text-decoration: none;
+    color: #131415;
+}
 .nav-btn{
     background: #FF8100;
     box-shadow: -4px 4px 10px rgba(220, 113, 14, 0.3);
@@ -63,7 +70,7 @@ font-family: Silkscreen;
     width: 147px;
     height: 57px;
     border-width: 0;
-    color: white;
+    color: #131415;
     font-family: Silkscreen;
     font-size: 15px;
 }
@@ -129,11 +136,12 @@ font-family: Silkscreen;
     font-family: Silkscreen;
     font-weight: 100;
     font-size: clamp(35px, 6rem, 65px);
-    padding-top: 100px;
+    padding-top: 25vh;
 }
 
 .h-t-s{
 color: #FF8100;
+
 }
 
 .marquee{
@@ -148,17 +156,31 @@ color: #FF8100;
     margin-top: 8rem;
     margin-bottom: 8rem;
     text-align: center;
+    color: rgba(255, 129, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    overflow: hidden;
+}
+
+.marque-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .aboutus{
     width: 90%;
+    padding-top: 23vh;
     margin-top: 10rem;
     margin: auto;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;   
     gap: 3rem; 
-    background: url(IMG/aa-left.svg) left clamp(10px, 2rem, 10px), url(IMG/aa-right.svg) right clamp(10px, 2rem, 10px);
+    background: url(IMG/aa-left.svg) left clamp(10px, 2rem, 10px), url(IMG/aa-right.svg) right bottom;
     background-repeat: no-repeat;
 }
 .a-header{
@@ -191,8 +213,9 @@ padding: 10px;
 
 
 .team{
-    background: url(IMG/a-left.svg) left center, url(IMG/a-right.svg) right center;
+    background: url(IMG/a-left.svg) left center, url(IMG/a-right.svg) right bottom;
     background-repeat: no-repeat;
+    padding-top: 25vh
 }
 .t-text{
     display: flex;
