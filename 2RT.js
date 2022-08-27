@@ -9,9 +9,9 @@ burger.addEventListener('click', (e) => {
     console.log('click')
     nav.classList.toggle('nav-active');
    if (Toggle === false){
-    document.querySelector('.icon').src = "Frame 38.svg"
+    document.querySelector('.icon').src = "IMG/Frame 38.svg"
    }else {
-    document.querySelector('.icon').src = "Frame 37.svg"
+    document.querySelector('.icon').src = "IMG/Frame 37.svg"
    }
     
    Toggle = !Toggle

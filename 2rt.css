@@ -120,11 +120,12 @@ font-family: Silkscreen;
 }
 
 .hero-text{
+    overflow: hidden;
     font-family: Silkscreen;
     max-width: 80%;
-
 }
-.hero-text h1{
+  
+.h-td{
     font-family: Silkscreen;
     font-weight: 100;
     font-size: clamp(35px, 6rem, 65px);
