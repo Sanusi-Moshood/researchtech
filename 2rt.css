@@ -35,6 +35,7 @@ nav {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
+    z-index: 99;
 }
 .nav-container{
     display: flex;
@@ -111,6 +112,7 @@ a{
         text-align: left;
         font-size: 5rem;
         height: 12rem;
+        color: white;
     }
     .burger {
         display: block;
